@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.rest.TC003_CreateChangeRequest">
+        <methods>
+          <include name="createIncident" invocation-numbers="0 1 2"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="setValues"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.rest.TC003_CreateChangeRequest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
